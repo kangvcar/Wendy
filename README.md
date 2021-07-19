@@ -1,4 +1,4 @@
-
+<div style="text-align:center"><img src="https://github.com/kangvcar/Wendy/blob/master/logo.png?raw=true" /></div>
 
 # Wendy
 
