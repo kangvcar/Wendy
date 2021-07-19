@@ -10,20 +10,13 @@ Wendy是一个Python GUI框架，它允许用HTML、CSS、Javascript、Ajax建�
 
 # Components
 
-`wxPython` - 构建窗体
-
-`CEF Python` - Chrome Embedded Framework
-
-`Flask` - 本地 web Server
-
-`Gevent` - 启动 Flask 服务
-
-`AdminLTE` - Bootstrap Web UI
-
-`xmlhttprequest` - Communication with Flask to update UI
-
+`wxPython` - 构建窗体 </br>
+`CEF Python` - Chrome Embedded Framework </br>
+`Flask` - 本地 web Server </br>
+`Gevent` - 启动 Flask 服务 </br>
+`AdminLTE` - Bootstrap Web UI </br>
+`xmlhttprequest` - Communication with Flask to update UI </br>
 `eel` - A little Python library
-
 
 # How to Use
 
@@ -49,7 +42,7 @@ pip install pipenv
 cd Wendy
 pipenv install
 pipenv shell
-# Start the application
+# 启动
 python -m wendy
 ```
 
