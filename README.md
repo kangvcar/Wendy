@@ -4,25 +4,9 @@
 
 # Wendy
 
-Wendy is a Python GUI framework that allows to build an application GUI with HTML, CSS, Javascript, Ajax. 
+Wendy is a Python GUI framework that allows to build an application GUI with HTML, CSS, Javascript, Ajax. </br>It uses CEF (Chrome Embedded Framework) to embed WxPython forms , through Flask to start a local server to respond to GUI requests .</br>The project GUI uses the popular AdminLTE template (Free admin dashboard template based on Bootstrap 4) by default, you can replace any template you want, please refer to Flask for replacement rules.</br>You can always download this project and modify it into your application. </br>The project also provides a packager script to make the application easier to distribute.
 
-It uses CEF (Chrome Embedded Framework) to embed WxPython forms , through Flask to start a local server to respond to GUI requests .
-
-The project GUI uses the popular AdminLTE template (Free admin dashboard template based on Bootstrap 4) by default, you can replace any template you want, please refer to Flask for replacement rules.
-
-You can always download this project and modify it into your application. 
-
-The project also provides a packager script to make the application easier to distribute.
-
-Wendy是一个Python GUI框架，它允许用HTML、CSS、Javascript、Ajax建立一个应用程序的GUI。 
-
-它使用CEF嵌入WxPython窗体，通过Flask启动本地服务器来响应GUI请求。
-
-项目GUI默认使用了流行的AdminLTE模板，您可以随意替换任意模板，替换规则请参考Flask。
-
-您可以随时下载本项目并修改成为你的应用程序。 
-
-本项目还提供了打包程序脚本使得程序更方便分发。
+Wendy是一个Python GUI框架，它允许用HTML、CSS、Javascript、Ajax建立一个应用程序的GUI。 </br>它使用CEF嵌入WxPython窗体，通过Flask启动本地服务器来响应GUI请求。</br>项目GUI默认使用了流行的AdminLTE模板，您可以随意替换任意模板，替换规则请参考Flask。</br>您可以随时下载本项目并修改成为你的应用程序。 </br>本项目还提供了打包程序脚本使得程序更方便分发。
 
 # Components
 
