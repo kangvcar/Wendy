@@ -1,0 +1,6 @@
+cefpython3>=66
+flask>=1.1.1
+gevent>=1.4.0
+pyinstaller==3.6
+wxpython>=4.0.7.post2
+pywin32>=227
