@@ -3,14 +3,24 @@
 # Wendy
 
 Wendy is a Python GUI framework that allows to build an application GUI with HTML, CSS, Javascript, Ajax. 
+
 It uses CEF (Chrome Embedded Framework) to embed WxPython forms , through Flask to start a local server to respond to GUI requests .
+
 The project GUI uses the popular AdminLTE template (Free admin dashboard template based on Bootstrap 4) by default, you can replace any template you want, please refer to Flask for replacement rules.
-You can always download this project and modify it into your application. The project also provides a packager script to make the application easier to distribute.
+
+You can always download this project and modify it into your application. 
+
+The project also provides a packager script to make the application easier to distribute.
 
 Wendy是一个Python GUI框架，它允许用HTML、CSS、Javascript、Ajax建立一个应用程序的GUI。 
+
 它使用CEF嵌入WxPython窗体，通过Flask启动本地服务器来响应GUI请求。
+
 项目GUI默认使用了流行的AdminLTE模板，您可以随意替换任意模板，替换规则请参考Flask。
-您可以随时下载本项目并修改成为你的应用程序。 本项目还提供了打包程序脚本使得程序更方便分发。
+
+您可以随时下载本项目并修改成为你的应用程序。 
+
+本项目还提供了打包程序脚本使得程序更方便分发。
 
 # Components
 
@@ -30,14 +40,19 @@ Wendy是一个Python GUI框架，它允许用HTML、CSS、Javascript、Ajax建�
 
 Clone this repo
 
+`git clone https://github.com/kangvcar/Wendy.git`
+
 ### Setup Environment
 
-[Python 3.7](https://www.python.org/downloads/)  
+- Python==3.7
+- Flask==2.0.1
+- cefpython3==66.1
+- PyInstaller==3.6
+- wxPython==4.1.1
+- gevent==21.1.2
 
 ```
-# installing pipenv
 pip install pipenv
-# Create the virtual environment and dependency libraries
 cd Wendy
 pipenv install
 pipenv shell
@@ -159,6 +174,7 @@ A file containing multiple hashes of the installer is also created.
 [Bootstrap](http://getbootstrap.com/) - Web Front-End Framework  
 [PyInstaller](http://www.pyinstaller.org/) - Turn Python projects into executables  
 [NSIS](http://nsis.sourceforge.net/Main%5FPage) - Creates installer  
+[Neuron](https://github.com/Andrew-Shay/Neuron) - Python project for creating desktop applications
 
 # Screenshot
 
