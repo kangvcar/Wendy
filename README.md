@@ -157,7 +157,7 @@ A file containing multiple hashes of the installer is also created.
 
 [CEFPython](https://github.com/cztomczak/cefpython) - Python bindings for the Chromium Embedded Framework  
 [Flask](http://flask.pocoo.org/) - Python microframework  
-[Bootstrap](http://getbootstrap.com/) - Web Front-End Framework  
+[AdminLTE](https://github.com/ColorlibHQ/AdminLTE) - Web Front-End Framework  
 [PyInstaller](http://www.pyinstaller.org/) - Turn Python projects into executables  
 [NSIS](http://nsis.sourceforge.net/Main%5FPage) - Creates installer  
 [Neuron](https://github.com/Andrew-Shay/Neuron) - Python project for creating desktop applications
