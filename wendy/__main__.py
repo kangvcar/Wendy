@@ -19,7 +19,6 @@ from cefpython3 import cefpython as cef
 
 from wendy import start_gevent, APP_NAME, get_root_path
 
-from wendy.app import main
 
 WindowUtils = cef.WindowUtils()
 
@@ -176,7 +175,7 @@ class MainFrame(wx.Frame):
         t = threading.Thread(target=start_server, args=(app_port,))
         t.daemon = True
         t.start()
-        flask_url = 'http://127.0.0.1:' + str(app_port)
+        flask_url = 'http://127.0.0.1:' + str(app_port) + '/index.html'
         # start_server(5000)
         # flask_url = "http://localhost:5000"
         print(flask_url)

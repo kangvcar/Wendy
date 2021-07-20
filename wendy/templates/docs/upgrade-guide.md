@@ -35,7 +35,7 @@ Like above the biggest change is the Main Sidebar contains now the Logo and the 
 3. Sidebar
   - `<section class="sidebar">` replaced with `<div class="sidebar">`
 4. User Panel
-  - `<div class="user-panel"><div class="pull-left image"><img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image"></div><div class="pull-left info"><p>Alexander Pierce</p><a href="#"><i class="fa fa-circle text-success"></i> Online</a></div></div>` replaced with `<div class="user-panel mt-3 pb-3 mb-3 d-flex"><div class="image"><img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image"></div><div class="info"><a href="#" class="d-block">Alexander Pierce</a></div></div>`
+  - `<div class="user-panel"><div class="pull-left image"><img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image"></div><div class="pull-left info"><p>KangVcar</p><a href="#"><i class="fa fa-circle text-success"></i> Online</a></div></div>` replaced with `<div class="user-panel mt-3 pb-3 mb-3 d-flex"><div class="image"><img src="{{ url_for('static', filename='dist/img/user10-128x128.png') }}" class="img-circle elevation-2" alt="User Image"></div><div class="info"><a href="#" class="d-block">KangVcar</a></div></div>`
 5. Sidebar Menu
   - `<nav class="mt-2">` now around `<ul class="sidebar-menu" data-widget="tree">`
   - `<ul class="sidebar-menu" data-widget="tree">` replaced with `<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu">`
