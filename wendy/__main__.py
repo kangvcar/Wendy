@@ -170,7 +170,7 @@ class MainFrame(wx.Frame):
         window_info.SetAsChild(self.browser_panel.GetHandle(),
                                [0, 0, width, height])
 
-        # NEURON
+        # Wendy
         app_port = find_port()
         t = threading.Thread(target=start_server, args=(app_port,))
         t.daemon = True
