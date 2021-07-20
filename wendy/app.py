@@ -53,5 +53,12 @@ def sub3_pages(sub1_path, sub2_path, sub3_path):
     print(ppath)
     return render_template(ppath)
 
+# iframe
+@app.route('/<sub_path>', methods=['GET'])
+def sub_pages(sub_path):
+    ppath = '/' + sub_path
+    print(ppath)
+    return render_template(ppath)
+    
 if __name__ == '__main__':
     app.run(host="localhost", port=5000, debug=True, use_reloader=True)
